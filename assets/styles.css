@@ -1,0 +1,180 @@
+.container{
+	display: flex;
+	background-color: #1E232B;
+}
+.container1{
+	  width: 40vw;
+	  align-items: center;
+	  display: flex;
+	  justify-content: flex-start;
+	  flex-direction: column;
+	  background-color: #D4B03B;
+	  border: 5px;
+	  height: 100%;
+	  border: 2px solid #984B11;
+}
+
+.container2{
+	  width: 60vw;
+  	padding: 20px;
+    color: whitesmoke;
+}
+
+.start{
+	font-family: "Lucida handwriting";
+	font-size: 2em;
+}
+
+.stockName{
+	font-family: Georgia;
+	font-size: 1.5em;
+}
+
+.inputStockName{
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-right: 5px;
+	width: 250px;
+}
+.check{
+	  margin-left: 25px;
+	  width: 70px;
+	  background-color: #813710;
+	  border: none;
+	  color: white;
+	  padding: 10px 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 15px;
+	  border-radius: 5px;
+	  transition-duration: 0.5s; 
+}
+
+.check:hover {
+  background-color: whitesmoke;
+  border: 1px solid #813710;
+  color: black;
+}
+
+
+.datePicker{
+	width: 350px;
+	padding: 10px;
+	margin-right: 35px;
+}
+
+.stockPrice{
+	margin-right: 30px;
+	  background-color: #109E10;
+	  border: none;
+	  color: white;
+	  padding: 20px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 15px;
+	  border-radius: 60%;
+	  transition-duration: 0.5s; 
+}
+
+.stockPrice:hover {
+  background-color: whitesmoke;
+  border: 1px solid #109E10;
+  color: black;
+}
+
+
+.indicators{
+	margin-left: 30px;
+	  background-color: #DA2309;
+	  border: none;
+	  color: white;
+	  padding: 20px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 15px;
+	  border-radius: 60%;
+	  transition-duration: 0.5s; 
+}
+
+.indicators:hover {
+  background-color: whitesmoke;
+  border: 1px solid #DA2309;
+  color: black;
+}
+
+
+.forecast{
+	margin-left: 25px;
+	  background-color: #813710;
+	  border: none;
+	  color: white;
+	  padding: 10px 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 15px;
+	  border-radius: 5px;
+	  transition-duration: 0.5s; 
+
+}
+
+.forecast:hover {
+  background-color: whitesmoke;
+  border: 1px solid #813710;
+  color: black;
+}
+
+.noOfDays{
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-right: 5px;
+	width: 250px;
+	height: 15px;
+}
+
+.pic1{
+	border-top: 10px;
+	border-radius: 8px;
+	padding: 5px; 
+	width: 400px;
+	height: 200px;
+}
+
+.pic2{
+	border-top: 10px;
+	border-radius: 18px;
+	padding: 5px; 
+	width: 400px;
+	height: 200px;
+}
+
+.companyName{
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 2em;
+	color: #e3d50e;
+}
+
+.description_ticker{
+	font-family: "Brush Script MT", cursive;
+	border: 1px solid grey;
+	font-style: italic;
+	color: #03fcfc;
+}
+
+.graphs-content{
+	border: 1px solid whitesmoke;
+	border-radius: 7px;
+}
+
+.main-content{
+	border: 1px solid whitesmoke;
+	border-radius: 7px;
+}
+
+.alert{
+	background-color: #f22707;
+	color: black;
+}
